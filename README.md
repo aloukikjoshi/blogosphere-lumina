@@ -1,4 +1,4 @@
-<div align="center" style="font-size: xxx-large"> <strong>🌟 Blogosphere Lumina 🌟</strong></div>
+<div align="center" style="font-size: 3rem; font-weight: bold; margin-bottom: 2rem;">🌟 Blogosphere Lumina 🌟</div>
 
 <div align="center">
 
@@ -13,12 +13,11 @@
 </p>
 
 <p>
-  <a href="#features">Features</a> •
-  <a href="#tech-stack">Tech Stack</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#documentation">Documentation</a> •
-  <a href="#usage-guide">Usage Guide</a> •
-  <a href="#license">License</a>
+  <a href="#-features">Features</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-getting-started">Getting Started</a> •
+  <a href="#-license">License</a> •
+  <a href="#-contact">Contact</a>
 </p>
 
 </div>
@@ -87,10 +86,6 @@ Blogosphere Lumina is built with a modern technology stack:
 - **TypeScript ESLint** - Type-aware linting
 - **PostCSS & Autoprefixer** - CSS processing and vendor prefixing
 
-<p align="center">
-  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgODAwIDI1MCI+CiAgPHN0eWxlPgogICAgLmJveHtmaWxsOiNmMGY5ZmY7c3Ryb2tlOiM2MWRhZmI7c3Ryb2tlLXdpZHRoOjI7fQogICAgLmFycm93e2ZpbGw6bm9uZTtzdHJva2U6IzYxZGFmYjtzdHJva2Utd2lkdGg6MjthcnJvdy1lbmQ6Y2xhc3NpYzt9CiAgICAudGV4dHtmb250LWZhbWlseTpzYW5zLXNlcmlmO2ZpbGw6IzQ0NDt9CiAgPC9zdHlsZT4KICA8IS0tIEZyb250ZW5kIC0tPgogIDxyZWN0IHg9IjEwMCIgeT0iNDAiIHdpZHRoPSIyMDAiIGhlaWdodD0iNzAiIHJ4PSI1IiBjbGFzcz0iYm94Ii8+CiAgPHRleHQgeD0iMTYwIiB5PSI3MCIgY2xhc3M9InRleHQiPlJlYWN0IDE4LjMuMTwvdGV4dD4KICA8dGV4dCB4PSIxNjUiIHk9IjkwIiBjbGFzcz0idGV4dCI+VHlwZVNjcmlwdDwvdGV4dD4KCiAgPCEtLSBVSSBDb21wb25lbnRzIC0tPgogIDxyZWN0IHg9IjQwMCIgeT0iNDAiIHdpZHRoPSIyMDAiIGhlaWdodD0iNzAiIHJ4PSI1IiBjbGFzcz0iYm94Ii8+CiAgPHRleHQgeD0iNDQwIiB5PSI3MCIgY2xhc3M9InRleHQiPlJhZGl4IFVJPC90ZXh0PgogIDx0ZXh0IHg9IjQzNSIgeT0iOTAiIGNsYXNzPSJ0ZXh0Ij5UYWlsd2luZCBDU1M8L3RleHQ+CgogIDwhLS0gU3RhdGUgTWFuYWdlbWVudCAtLT4KICA8cmVjdCB4PSIyNTAiIHk9IjE0MCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSI3MCIgcng9IjUiIGNsYXNzPSJib3giLz4KICA8dGV4dCB4PSIyODAiIHk9IjE3MCIgY2xhc3M9InRleHQiPlRhblN0YWNrIFF1ZXJ5PC90ZXh0PgogIDx0ZXh0IHg9IjI3NSIgeT0iMTkwIiBjbGFzcz0idGV4dCI+UmVhY3QgSG9vayBGb3JtPC90ZXh0PgoKICA8IS0tIENvbm5lY3RvcnMgLS0+CiAgPHBhdGggZD0iTTIwMCAxMTAgTDI1MCAxNDAiIGNsYXNzPSJhcnJvdyIvPgogIDxwYXRoIGQ9Ik01MDAgMTEwIEw0NTAgMTQwIiBjbGFzcz0iYXJyb3ciLz4KPC9zdmc+" alt="Architecture Diagram" width="700px"/>
-</p>
-
 ---
 
 ## ✨ Getting Started
@@ -123,13 +118,12 @@ Follow these steps to set up and run Blogosphere Lumina locally:
    # or
    yarn dev
    ```
-
-4. Open your browser and navigate to http://localhost:5173.
+   
+4. Open your browser and navigate to [http://localhost:8080](http://localhost:8080) (or click on the link mentioned in the terminal).
 
 ---
 
 ## 📄 License
-
 
 Blogosphere Lumina is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 For more details, see the [LICENSE](LICENSE) file in the repository.
