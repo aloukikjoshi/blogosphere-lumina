@@ -1,4 +1,4 @@
-<div align="center" style="font-size: 3rem; font-weight: bold; margin-bottom: 2rem;">🌟 Blogosphere Lumina 🌟</div>
+# 🌟 Blogosphere Lumina 🌟
 
 <div align="center">
 
