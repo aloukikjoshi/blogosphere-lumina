@@ -1,0 +1,98 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 30 33% 98%;
+    --foreground: 226 24% 14%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 226 24% 14%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 226 24% 14%;
+
+    --primary: 226 24% 14%;
+    --primary-foreground: 30 33% 98%;
+
+    --secondary: 30 10% 95%;
+    --secondary-foreground: 226 24% 14%;
+
+    --muted: 30 10% 95%;
+    --muted-foreground: 226 8% 50%;
+
+    --accent: 30 10% 95%;
+    --accent-foreground: 226 24% 14%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 226 10% 90%;
+    --input: 226 10% 90%;
+    --ring: 226 24% 14%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 226 32% 10%;
+    --foreground: 30 10% 95%;
+
+    --card: 226 30% 12%;
+    --card-foreground: 30 10% 95%;
+
+    --popover: 226 30% 12%;
+    --popover-foreground: 30 10% 95%;
+
+    --primary: 30 10% 95%;
+    --primary-foreground: 226 24% 14%;
+
+    --secondary: 226 24% 18%;
+    --secondary-foreground: 30 10% 95%;
+
+    --muted: 226 24% 18%;
+    --muted-foreground: 30 10% 70%;
+
+    --accent: 226 24% 18%;
+    --accent-foreground: 30 10% 95%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 30 10% 95%;
+
+    --border: 226 24% 22%;
+    --input: 226 24% 22%;
+    --ring: 30 10% 75%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  p, ul, ol, li {
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  .hover-scale {
+    @apply transition-transform duration-300 hover:scale-[1.02];
+  }
+  
+  .category-badge {
+    @apply inline-flex text-xs font-medium px-2.5 py-0.5 rounded transition-colors;
+  }
+}
